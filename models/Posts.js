@@ -6,7 +6,7 @@ const PostSchema = new mongoose.Schema({
         required: true,
         unique: true
     }, 
-    desc: {
+    desc: { 
         type: String,
         required: true
     },
@@ -19,7 +19,7 @@ const PostSchema = new mongoose.Schema({
         required: true
     },
     category: {
-        type: Array,
+        type: String,
         required: false
     }
 },
